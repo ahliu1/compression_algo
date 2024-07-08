@@ -42,3 +42,4 @@ After writing the tree, we'll read the file being compressed one more time. The 
 
 We write these bits _after_ writing the bits for every 8-bit chunk. The encoding for `PSEUDO_EOF` is used when decompressing, so we write the encoding bits before the output file is closed.
 
+*Project completed for the Spring 2024 Data Structures class at Duke University.*
